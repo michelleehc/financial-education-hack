@@ -60,7 +60,7 @@ h1 {
     border-radius: 15px;
     width: 500px;
     height: 60px;
-    background: linear-gradient(90deg, rgba(14,230,0,1) 0%, rgba(59,203,255,1) 33%, rgba(14,230,0,1) 66%, rgba(59,203,255,1) 100%);
+    background: linear-gradient(90deg, rgba(255, 123, 172) 0%, rgba(59,203,255,1) 33%, rgba(255, 255, 255) 66%, rgba(59,203,255,1) 100%);
     font-size: 26px;
     background-size: 400% 400%;
     font-variant: small-caps;
