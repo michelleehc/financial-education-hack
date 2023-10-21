@@ -1,2 +1,2 @@
 # Financial Education Hack
-Tachnica 2023 Hack
+Technica 2023 Hack
