@@ -82,7 +82,6 @@ function typeInCells(){
 }
 
 const input3 = document.getElementById("puzzle3").children
-// const ans3 = [1, 2]
 const ans3 = [7193396, 9411920]
 let currentQ = 0
 function check(x) {
