@@ -24,7 +24,7 @@ h1 {
     font-variant: small-caps;
     font-size: 45px;
     /* background: linear-gradient(90deg, rgba(0,41,230,1) 0%, rgba(59,203,255,1) 25%, rgba(211,144,242,1) 75%, rgba(98,94,255,1) 100%); */
-	background: linear-gradient(90deg, rgba(0,255,196,1) 0%, rgba(0,234,240,1) 33%, rgba(0,172,255,1) 66%, rgba(0,99,255,1) 100%);
+	background: linear-gradient(90deg, rgba(255, 123, 172) 0%, rgba(59,203,255,1) 33%, rgba(0,172,255,1) 66%, rgba(0,99,255,1) 100%);
 	animation: gradient 10s ease infinite;
 	background-size: 400% 400%;
 	border: none;
