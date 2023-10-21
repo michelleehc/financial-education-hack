@@ -1,0 +1,209 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html { 
+  background: url("../img/StacySpecial.svg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    margin: 50px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 45px;
+    /* background: linear-gradient(90deg, rgba(0,41,230,1) 0%, rgba(59,203,255,1) 25%, rgba(211,144,242,1) 75%, rgba(98,94,255,1) 100%); */
+	background: linear-gradient(90deg, rgba(0,255,196,1) 0%, rgba(0,234,240,1) 33%, rgba(0,172,255,1) 66%, rgba(0,99,255,1) 100%);
+	animation: gradient 10s ease infinite;
+	background-size: 400% 400%;
+	border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+.panel {
+    border: 3px rgba(175,255,255,.5) inset;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+	/* background: linear-gradient(90deg, rgba(255,255,255,.75) 0%, rgba(230,175,255,.75) 50%, rgba(255,255,255,.75) 100%); */
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(175,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    color: black;
+    line-height: 30px;
+}
+
+#continueBar {
+	display: flex;
+	justify-content: center;
+	transition: transform 0.2s ease 0s;
+}
+
+#continueBar:hover {
+	
+	transform: translateY(-3px);
+}
+#continue {
+    margin: 20px;
+	border: none;
+    border-radius: 15px;
+    width: 500px;
+    height: 60px;
+    background: linear-gradient(90deg, rgba(14,230,0,1) 0%, rgba(59,203,255,1) 33%, rgba(14,230,0,1) 66%, rgba(59,203,255,1) 100%);
+    font-size: 26px;
+    background-size: 400% 400%;
+    font-variant: small-caps;
+	transition: transform 0.2s ease 0s;
+    animation: gradient 3s ease infinite;
+    letter-spacing: 5px;
+    color: white;
+	-webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+	box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+#continue:hover {
+    cursor: pointer;
+	box-shadow: 0px 20px 20px rgb(204, 255, 255);
+    background: linear-gradient(90deg, rgba(59,203,255,1) 0%, rgba(14,230,0,1) 33%, rgba(59,203,255,1) 66%,  rgba(14,230,0,1) 100%);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+}
+
+#continue:active {
+	transform: translateY(3px);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.shake {
+    animation: shake .8s;
+}
+
+.elevator {
+    width: 200px;
+}
+
+.eLabel {
+    display: inline-block;
+    margin-left: 65px;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.elevClose {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.elevClose:hover {
+    color: black;
+}
+
+#elevSucc {
+    background-color: #7CFC00;
+    color: black;
+}
+
+.open {
+  height: 300px;
+}
+
+#passInput {
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: center;
+    gap: 10px;
+	margin-bottom: 50px;
+}
+
+.charBox {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border: 1px black solid;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    border-radius: 10px;
+	background: radial-gradient(circle, rgba(146,255,252,1) 0%, rgba(0,232,241,1) 80%);
+    border: 10px rgba(0,232,241,1) inset;
+}
+
+#puzzle3 {
+	display: flex;
+	justify-content: center;
+}
+
+.input {
+	width: 300px;
+	height: 50px;
+	font-size: 25px;
+	border-radius: 5px;
+	border: 2px rgba(175,255,255,1) inset;
+	margin-bottom: 20px;
+	padding-left: 5px;
+}
+
+#mazeHBar {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+#mazeHButton {
+	background: transparent;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+}
