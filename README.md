@@ -1,2 +1,2 @@
 # Financial Education Hack
-Technica 2023 Hack
+dedicated to the financial education of students
