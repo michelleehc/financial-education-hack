@@ -4,7 +4,7 @@
 
 html { 
   /*background: url("../img/StacySpecial.svg") no-repeat center center fixed; */
-  background: url("../img/blueClouds.png");
+  background: url("/img/blueClouds.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
