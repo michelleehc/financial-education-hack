@@ -60,7 +60,11 @@ h1 {
     border-radius: 15px;
     width: 500px;
     height: 60px;
+<<<<<<< HEAD
+    background: linear-gradient(90deg, rgba(255, 123, 172) 0%, rgba(59,203,255,1) 33%, rgba(255, 255, 255) 33%, rgba(59,203,255,1) 33%);
+=======
     background: linear-gradient(90deg, rgba(255, 123, 172) 66%, rgba(59,203,255,1) 66%, rgba(255, 255, 255) 33%, rgba(59,203,255,1) 66%);
+>>>>>>> 4f2c0b56308961d6bbcddc63f3314fa99dac4263
     font-size: 26px;
     background-size: 400% 400%;
     font-variant: small-caps;
@@ -76,7 +80,7 @@ h1 {
 #continue:hover {
     cursor: pointer;
 	box-shadow: 0px 20px 20px rgb(204, 255, 255);
-    background: linear-gradient(90deg, rgba(59,203,255,1) 0%, rgba(14,230,0,1) 33%, rgba(59,203,255,1) 66%,  rgba(14,230,0,1) 100%);
+    background: linear-gradient(90deg, rgba(255, 123, 172) 66%, rgba(59,203,255,1) 66%, rgba(255, 255, 255) 33%,  rgba(59,203,255,1) 66%);
     background-size: 400% 400%;
     animation: gradient 3s ease infinite;
 }
