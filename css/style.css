@@ -197,16 +197,15 @@ h1 {
 	padding-left: 5px;
 }
 
-#ansBar {
-	display: flex;
-	justify-content: center;
+.ansBar {
 	margin-bottom: 30px;
 }
 
 #ansButton {
-	background: transparent;
-	padding: 10px;
-	border-radius: 5px;
-	font-size: 20px;
-    display: block
+    display: block;
+    background: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
