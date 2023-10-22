@@ -123,70 +123,7 @@
     </p>
   </div>
 
-  <! -- multiple choice --> 
-  <div id="question"></div>
-<div id="choices"></div>
-<div id="feedback" class="feedback"></div>
-<button onclick="loadNextQuestion()" id="continueBtn" style="display: none;">Continue</button>
-
-<script>
-  const questions = [
-    {
-      question: "What is the capital of France?",
-      choices: ["New York", "London", "Paris", "Berlin"],
-      answer: "Paris"
-    },
-    {
-      question: "What is the tallest mountain in the world?",
-      choices: ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"],
-      answer: "Mount Everest"
-    }
-  ];
-
-  let currentQuestionIndex = 0;
-  let currentQuestion;
-
-  function displayQuestion() {
-    currentQuestion = questions[currentQuestionIndex];
-    document.getElementById("question").innerText = currentQuestion.question;
-
-    const choicesContainer = document.getElementById("choices");
-    choicesContainer.innerHTML = "";
-
-    currentQuestion.choices.forEach(choice => {
-      const button = document.createElement("button");
-      button.innerHTML = choice;
-      button.onclick = () => checkAnswer(choice);
-      choicesContainer.appendChild(button);
-    });
-  }
-
-  function checkAnswer(choice) {
-    const feedback = document.getElementById("feedback");
-    if (choice === currentQuestion.answer) {
-      feedback.innerHTML = "Correct!";
-    } else {
-      feedback.innerHTML = "Incorrect! Please try again.";
-    }
-    feedback.style.display = "block";
-    document.getElementById("continueBtn").style.display = "block";
-  }
-
-  function loadNextQuestion() {
-    document.getElementById("feedback").style.display = "none";
-    currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
-      displayQuestion();
-      document.getElementById("continueBtn").style.display = "none";
-    }
-  }
-
-  displayQuestion();
-</script>
-
-
-
-
+  <! -- multiple choice -->
 
   <div class="locked panel" >
     <p>
