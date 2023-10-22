@@ -73,68 +73,12 @@ function typeInCells(){
                 cells[i].innerHTML = char
             }
 
-            if (string === "FORCE") {
+            if (string === "MONEY") {
                 cont.style.display = "block"
                 document.removeEventListener('keydown', handler)
             }
         }
     }
-}
-
-const input3 = document.getElementById("puzzle3").children
-const ans3 = [7193396, 9411920]
-let currentQ = 0
-function check(x) {
-    if(event.key === 'Enter') {
-
-        if (+x.value === ans3[currentQ]) {
-            if (currentQ===1) {
-                input3[1].disabled = true
-                cont.style.display = "block"
-            }
-            else {
-                input3[currentQ].style.display = "none"
-                currentQ++
-                input3[currentQ].style.display = "block"
-                input3[currentQ].focus()
-            }
-        } else {
-            console.log("anthony is smmart")
-            input3[currentQ].classList.add("shake")
-            setTimeout(function () {
-                input3[currentQ].classList.remove("shake")
-                input3[currentQ].style.transform = "translate3d(0, 0, 0)"
-            }, 500)
-        }
-    }
-}
-
-const input4 = document.getElementById("puzzle4").children
-// const ans4 = [1,2]
-const ans4 = [31, 60]
-let currentQ2 = 0
-function checkV2(x){
-       if(event.key === 'Enter'){
-           if (+x.value === ans4[currentQ2]) {
-                if(currentQ2 === 1){
-                    input4[1].children[1].disabled = true
-                    cont.style.display = "block"
-                }
-               else{
-                    input4[currentQ2].style.display = "none"
-                    currentQ2++
-                    input4[currentQ2].style.display = "block"
-                    input4[currentQ2].children[1].focus()
-               }
-           } else {
-            console.log("anthony is smmart")
-            input4[currentQ2].classList.add("shake")
-            setTimeout(function () {
-                input4[currentQ2].classList.remove("shake")
-                input4[currentQ2].style.transform = "translate3d(0, 0, 0)"
-            }, 500)
-        }
-       }
 }
 
 
