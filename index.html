@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>FinEd</title>
-  <link rel="shortcut icon" href="img/techniSparkle.png">
+  <link rel="shortcut icon" href="img/technisparkle2.png">
   <link href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
@@ -28,6 +28,32 @@
       </pre>
       Let's dive in and let your financial wisdom bloom! 🌼
     </p>
+  </div>
+
+  <!score counter>
+  <div>
+    <p>Score: <span id="score">0</span></p>
+
+    <button onclick="incrementScore()">Increase Score</button>
+    <button onclick="resetScore()">Play Again</button>
+  
+    <script>
+        let score = 0;
+  
+        function incrementScore() {
+            score++;
+            updateScore();
+        }
+  
+        function resetScore() {
+            score = 0;
+            updateScore();
+        }
+  
+        function updateScore() {
+            document.getElementById("score").textContent = score;
+        }
+    </script>
   </div>
 
   <! -- module 1 title page -->
