@@ -82,7 +82,7 @@ function typeInCells(){
 }
 
 const input3 = document.getElementById("puzzle3").children
-const ans3 = [7193396, 9411920]
+const ans3 = [0, 0]
 let currentQ = 0
 function check(x) {
     if(event.key === 'Enter') {
@@ -99,7 +99,7 @@ function check(x) {
                 input3[currentQ].focus()
             }
         } else {
-            console.log("anthony is smmart")
+            console.log("good choice")
             input3[currentQ].classList.add("shake")
             setTimeout(function () {
                 input3[currentQ].classList.remove("shake")
