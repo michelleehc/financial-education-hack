@@ -123,7 +123,7 @@
 
   <!-- multiple choice -->
   <div class="panel">
-    <p>Which statement best describes the relationship between a person's educational level and that person's potential earning power?</p> 
+    <p>Which type of student loan is typically offered by the government with fixed interest rates and flexible repayment options?</p> 
     <div id="ansBar">
       <div id="ansError" class="alert" style="display: none">
         <span class="ansClose" onclick="this.parentElement.style.display='none';">&times;</span>
@@ -133,11 +133,13 @@
         Correct! Press 'Continue' to proceed.
       </div>
       <div id="ansBar">
-        <button class="ansButton" onclick="document.getElementById('ansError').style.display='block';">A. A person with a profession degree is likely to earn at least four times as much per year as a person who did not complete high school.</button>
+        <button class="ansButton" onclick="document.getElementById('ansSucc').style.display='block';">A. Federal Loans</button>
         <br>
-        <button class="ansButton" onclick="document.getElementById('ansSucc').style.display='block'; incrementScore();">B. A person with a profession degree is not likely to earn at least four times as much per year as a person who did not complete high school.</button>
+        <button class="ansButton" onclick="document.getElementById('ansError').style.display='block'; incrementScore();">B. Private Loans</button>
         <br>
-        <button class="ansButton" onclick="document.getElementById('ansError').style.display='block';">C. None of the above</button>
+        <button class="ansButton" onclick="document.getElementById('ansError').style.display='block';">C. Subsidized Loans</button>
+        <br>
+        <button class="ansButton" onclick="document.getElementById('ansError').style.display='block';">C. Unsubsidized Loans</button>
       </div>
     </div>
 </div>
