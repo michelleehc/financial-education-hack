@@ -5,30 +5,6 @@
   <link rel="shortcut icon" href="img/technisparkle2.png">
   <link href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-<h1 id="title">FinEd</h1>
-<div id="allPanels">
-
-  <! -- title page -->
-  <div class="panel">
-    <p>
-      <div onclick="shake(this)" style="text-align: center"><h3> Welcome to our interactive financial education platform, <b>FinEd! 🌱</b></h3></div>
-      <br>
-      Get ready to embark on an exciting journey towards financial literacy while having fun cultivating your very own virtual garden. Earn points by acing our challenging quizzes and watch your garden flourish as you grow your financial knowledge.
-      <br>
-      <br>
-      Here's how it works:
-      <br>
-      <pre>
-        1. Answer financial questions correctly to earn points.
-        2. Use your points to unlock and collect various seeds for your garden.
-        3. Plant your seeds and nurture your virtual garden as your financial knowledge blossoms.
-        4. Watch your garden thrive and transform as you progress through different financial topics and levels.
-      </pre>
-      Let's dive in and let your financial wisdom bloom! 🌼
-    </p>
-  </div>
 
   <!score counter>
   <div>
@@ -54,6 +30,31 @@
             document.getElementById("score").textContent = score;
         }
     </script>
+  </div>
+  
+</head>
+<body>
+<h1 id="title">FinEd</h1>
+<div id="allPanels">
+
+  <! -- title page -->
+  <div class="panel">
+    <p>
+      <div onclick="shake(this)" style="text-align: center"><h3> Welcome to our interactive financial education platform, <b>FinEd! 🌱</b></h3></div>
+      <br>
+      Get ready to embark on an exciting journey towards financial literacy while having fun cultivating your very own virtual garden. Earn points by acing our challenging quizzes and watch your garden flourish as you grow your financial knowledge.
+      <br>
+      <br>
+      Here's how it works:
+      <br>
+      <pre>
+        1. Answer financial questions correctly to earn points.
+        2. Use your points to unlock and collect various seeds for your garden.
+        3. Plant your seeds and nurture your virtual garden as your financial knowledge blossoms.
+        4. Watch your garden thrive and transform as you progress through different financial topics and levels.
+      </pre>
+      Let's dive in and let your financial wisdom bloom! 🌼
+    </p>
   </div>
 
   <! -- module 1 title page -->
@@ -191,10 +192,6 @@
       <div class="charBox"></div>
       <div class="charBox"></div>
       <div class="charBox"></div>
-    </div>
-    <div id="mazeHBar">
-      <button id="mazeHButton" onclick="showHint('mazeHint', this)">Stuck? Click For Solution</button>
-      <img id="mazeHint" src="img/mazeAnswer.png" style="display: none">
     </div>
   </div>
 
