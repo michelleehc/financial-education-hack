@@ -209,3 +209,9 @@ h1 {
 	border-radius: 5px;
 	font-size: 20px;
 }
+
+#ansHBar {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
