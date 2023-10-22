@@ -6,12 +6,11 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" type="text/css">
 
-  <!score counter>
+  <!--score counter-->
   <div>
     <p>Score: <span id="score">0</span></p>
 
     <button onclick="incrementScore()">Increase Score</button>
-    <button onclick="resetScore()">Play Again</button>
   
     <script>
         let score = 0;
@@ -248,7 +247,9 @@
     <p>You positioned the shot just right!</p>
     <p>Anthony is launched out of the cannon and lands in the back of a truck, which then drives away.</p>
     <div id="congrats"><h2>Congratulations on completing Anthony's Amazing Adventure!</h2></div>
-    <img style="height: 400px" src="img/concan.png"/>
+
+    <img style="height: 400px" src="img/concan.png"/>  
+    <button onclick="resetScore()">Play Again</button>
   </div>
 </div>
 <div id="continueBar">
