@@ -110,7 +110,6 @@ function check(x) {
 }
 
 const input4 = document.getElementById("puzzle4").children
-// const ans4 = [1,2]
 const ans4 = [31, 60]
 let currentQ2 = 0
 function checkV2(x){
