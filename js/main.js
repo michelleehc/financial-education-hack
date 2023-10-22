@@ -73,7 +73,7 @@ function typeInCells(){
                 cells[i].innerHTML = char
             }
 
-            if (string === "FORCE") {
+            if (string === "MONEY") {
                 cont.style.display = "block"
                 document.removeEventListener('keydown', handler)
             }
