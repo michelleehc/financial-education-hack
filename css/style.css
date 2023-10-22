@@ -3,7 +3,7 @@
 }
 
 html { 
-  background: url("../img/blueClouds.png");
+    background: url("../img/blueClouds.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -202,10 +202,10 @@ h1 {
 }
 
 .ansButton {
-    display: block;
-    background: transparent;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 20px;
-    margin-bottom: 10px;
+display: block;
+	background: transparent;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+margin-bottom: 10px;
 }
