@@ -36,7 +36,7 @@
 <h1 id="title">FinEd</h1>
 <div id="allPanels">
 
-  <! -- title page -->
+  <!-- title page -->
   <div class="panel">
     <p>
       <div onclick="shake(this)" style="text-align: center"><h3> Welcome to our interactive financial education platform, <b>FinEd! 🌱</b></h3></div>
@@ -56,7 +56,7 @@
     </p>
   </div>
 
-  <! -- module 1 title page -->
+  <!-- module 1 title page -->
   <div class="panel">
     <p>
       <div style="text-align: center"><h3> Level 1: Understanding Student Loans</h3></div>
@@ -123,7 +123,7 @@
     </p>
   </div>
 
-  <! -- multiple choice -->
+  <!-- multiple choice -->
   <div class="locked panel">
     <p>Which statement best describes the relationship between a person's educational level and that person's potential earning power?</p> 
     <div id="ansBar">
@@ -131,7 +131,7 @@
         <span class="ansClose" onclick="this.parentElement.style.display='none';">&times;</span>
         Incorrect answer. Please try again!
       </div>
-      <div id="ansSucc" class="alert" style="display: none">
+      <div id="ansSucc" class="alert" style="display: none" onclick="incrementScore()">
         Correct! Press 'Continue' to proceed.
       </div>
       <div id="ansBar">
