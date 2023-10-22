@@ -201,7 +201,7 @@ h1 {
 	margin-bottom: 10px;
 }
 
-#ansButton {
+.ansButton {
     display: block;
     background: transparent;
     padding: 10px;
