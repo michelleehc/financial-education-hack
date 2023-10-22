@@ -126,7 +126,7 @@ function checkV2(x){
                     input4[currentQ2].children[1].focus()
                }
            } else {
-            console.log("anthony is smmart")
+            console.log("good work")
             input4[currentQ2].classList.add("shake")
             setTimeout(function () {
                 input4[currentQ2].classList.remove("shake")
@@ -144,7 +144,7 @@ function checkWork(x) {
             mult.disabled = true
             cont.style.display = "block"
         } else {
-            console.log("anthony is smmart")
+            console.log("good work")
             mult.classList.add("shake")
             setTimeout(function () {
                 mult.classList.remove("shake")
