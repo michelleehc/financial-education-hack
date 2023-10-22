@@ -5,7 +5,6 @@
   <link rel="shortcut icon" href="img/technisparkle2.png">
   <link href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" type="text/css">
-
   <!--score counter-->
   <div>
     <b>✨ <span id="score">0</span> </b>
@@ -33,7 +32,6 @@
 <body>
 <h1 id="title">FinEd</h1>
 <div id="allPanels">
-
   <!-- title page -->
   <div class="panel">
     <p>
@@ -53,7 +51,6 @@
       Let's dive in and let your financial wisdom bloom! 🌼
     </p>
   </div>
-
   <!-- module 1 title page -->
   <div class="panel">
     <p>
@@ -69,7 +66,6 @@
       <br>Let's get started on your student loan journey!
     </p>
   </div>
-
   <div class="panel">
     <p>
       <div style="text-align: center"><h3> Types of Student Loans:</h3></div>
@@ -79,7 +75,6 @@
       <b>Subsidized loans</b>, based on financial need, have their interest covered by the government while you're in school. Unsubsidized loans, not based on need, accumulate interest from the moment you take them out.
     </p>
   </div>
-
   <div class="panel">
     <p>
       <div style="text-align: center"><h3> Loan Terms and Conditions:</h3></div>
@@ -90,28 +85,24 @@
       <b>Eligibility criteria</b> for loans are influenced by factors such as your enrollment status, financial need, and credit history.
     </p>
   </div>
-
   <div class="panel">
     <p>
       <div style="text-align: center"><h3>Borrowing Limits and Guidelines:</h3></div>
       Understanding your borrowing limits is crucial. These limits are often based on your year in school and whether you're financially independent. Guidelines stress the importance of borrowing only what's necessary to cover your educational expenses. Going beyond these limits can lead to potential financial strains, requiring additional financial planning.
     </p>
   </div>
-
   <div class="panel">
     <p>
       <div style="text-align: center"><h3>Pros and Cons of Student Loans:</h3></div>
       Student loans can be a vital tool for accessing education, building credit, and investing in your future career. However, it's important to recognize that they come with responsibilities. They can accrue interest, potentially leading to a substantial debt burden if not managed responsibly. Carefully considering the long-term implications of taking on student loan debt is essential for a secure financial future.
     </p>
   </div>
-
   <div class="panel">
     <p>
       <div style="text-align: center"><h3>Importance of Loan Repayment:</h3></div>
       Understanding the significance of timely loan repayment is key. It's not just about paying off a debt; it's also about building a positive credit history that can have far-reaching implications. Failing to manage your loan payments can result in severe consequences, including a damaged credit score and even wage garnishment. Prioritizing responsible loan management is critical to ensure financial stability as you move forward after graduation.
     </p>
   </div>
-
   <div class="panel">
     <p>
       <div style="text-align: center"><h3>Test Your Knowledge!</h3></div>
@@ -120,7 +111,6 @@
       So, buckle up and get ready to earn points as you master the art of managing student loans! 
     </p>
   </div>
-
   <!-- multiple choice -->
   <div class="panel">
     <p>Which type of student loan is typically offered by the government with fixed interest rates and flexible repayment options?</p> 
@@ -143,7 +133,6 @@
       </div>
     </div>
 </div>
-
 <div class="panel">
   <p>What does the grace period for student loans refer to?</p> 
   <div id="ansBar">
@@ -165,7 +154,6 @@
     </div>
   </div>
 </div>
-
   <div class="locked panel" >
     <p>
       Now it's time to pick your garden! You can use your points to create it just the way you like. Will it be a garden of colorful flowers in the spring? Or one with bright sunflowers and nice smells in the summer? Maybe you'd prefer a cozy garden with falling leaves in the fall, or a calm, snowy garden in the winter. You decide! Which garden feels just right for you?
@@ -185,13 +173,74 @@
         <img id="e1" class="garden" src="img/spring.jpg" onclick="elev1()"/><img id="e2" class="Garden" src="img/fall.jpg" onclick="elev2()"/><img id="e3" class="Garden" src="img/winter.jpg" onclick="elev3()"/>
       </div>
     </div>
+    <p>Pick the Garden that will allow Carolyn to accelerate downwards. Please calculate which Garden will allow him to do so, and click on the one you find to be correct. </p>
+  </div>
+  <div id="puzzle2" class="locked panel">
+    <p>Enter the code using the labyrinth found in the box</p>
+    <label for="passInput"><br>Type Code Here: </label>
+    <div id="passInput">
+      <div class="charBox"></div>
+      <div class="charBox"></div>
+      <div class="charBox"></div>
+      <div class="charBox"></div>
+      <div class="charBox"></div>
+    </div>
+  </div>
+  <div class="panel">
+    <p>A yellow envelope appears in front of him. Please find it from the box and open it to proceed.</p>
+    <img class="open" src="img/ywEnvelope.png"/>
+  </div>
+  <div class="locked panel">
+    <p>Use the yellow envelope and the picture of the rollercoaster from the box to help you solve this next puzzle. </p>
+    <ol>
+      <li>Find the potential energy of the cart at point A. </li>
+      <li>Find the kinetic energy of the cart at point B.</li>
+      <!-- <li>Find the normal force at Point C (top of the loop de loop).</li> -->
+    </ol>
+    <div id="puzzle3">
+      <input class="input" type="number" placeholder="Enter Answer #1" onkeydown="check(this)"/>
+      <input class="input" type="number" placeholder="Enter Answer #2" onkeydown="check(this)" style="display: none"/>
+      <!-- <input class="input" type="number" placeholder="Enter Answer #3" onkeydown="check(this)" style="display: none"/> -->
+    </div>
+  
+  </div>
+  <div class="locked panel">
+    <p>After the cart finally leaves the rollercoaster-like track, it enters a horizontal track and slows to a rest.<br>
+    A defective roller coaster cart hits Carolyn’s cart with a force of 300N and moves the cart off the track, 178 meters to the right. Find the work done.
+    </p>
+    <div style="text-align: center"><input class="input" id="multiply2numbers" type="number" placeholder="Enter Answer" onkeydown="checkWork(this)"/></div>
+  </div>
+  
+  <div class="panel">
+    <p> After getting off the roller coaster, Mrs. Smedberg decides Carolyn needs some sugar to help her concetrate on Bryan's next endeavor, and redirects Carolyn to go to the cotton candy stand. Find the cotton candy item in the box
+      for a clue.
+    </p>
+    <img class="open" src="img/cottoncandy.png"/>
+  </div>
+  <div class="locked panel">
+    <p>Carolyn finally sees the sky! In front of her is a giant confetti cannon that she thinks she can use to launch her forward. However, she needs to figure out the angle at which to catapult herself and the password to allow her to launch herself. </p>
+    <div id="puzzle4">
+      <div>
+        <p>1. Input the initial velocity at which she needs to launch himself.</p>
+        <input class="input" type="number" placeholder="Enter Answer #1" onkeydown="checkV2(this)"/>
+      </div>
+      <div style="display: none">
+        <p>2. Find θ, the angle of the cannon</p>
+        <input class="input" type="number" placeholder="Enter Answer #2" onkeydown="checkV2(this)"/>
+      </div>
+    </div>
+  </div>
+  <div class="locked panel">
+    <p>You positioned the shot just right!</p>
+    <p>Carolyn is launched out of the cannon and lands in the back of a truck, which then drives away.</p>
+    <div id="congrats"><h2>Congratulations on completing Carolyn's Amazing Adventure!</h2></div>
+    <img style="height: 400px" src="img/concan.png"/>  
+    <button onclick="resetScore()">Play Again</button>
   </div>
 </div>
-
 <div id="continueBar">
   <button id="continue" onclick="next()">Continue</button>
 </div>
 </body>
-
 <script type="text/javascript" src="js/main.js"></script>
 </html>
