@@ -129,18 +129,20 @@
     <div id="ansBar">
       <div id="ansError" class="alert" style="display: none">
         <span class="ansClose" onclick="this.parentElement.style.display='none';">&times;</span>
-        Incorrect answer. Please try again!
+        Incorrect answer. Press 'Continue' to proceed.
       </div>
       <div id="ansSucc" class="alert" style="display: none">
         Correct! Press 'Continue' to proceed.
       </div>
       <div id="ansBar">
-        <button id="ansButton" onclick="ansError">A. A person with a profession degree is likely to earn at least four times as much per year as a person who did not complete high school.</button>
-        <br><button id="ansButton" onclick="checkAnswer('B'); incrementScore()">B. A person with a profession degree is not likely to earn at least four times as much per year as a person who did not complete high school.</button>
-        <br><button id="ansButton" onclick="checkAnswer('C')">C. None of the above</button>
+        <button id="ansButton1" onclick="document.getElementById('ansError').style.display='block';">A. A person with a profession degree is likely to earn at least four times as much per year as a person who did not complete high school.</button>
+        <br>
+        <button id="ansButton2" onclick="document.getElementById('ansSucc').style.display='block'; incrementScore();">B. A person with a profession degree is not likely to earn at least four times as much per year as a person who did not complete high school.</button>
+        <br>
+        <button id="ansButton3" onclick="document.getElementById('ansError').style.display='block';">C. None of the above</button>
       </div>
     </div>
-  </div>  
+</div>
 
   <div class="locked panel" >
     <p>
