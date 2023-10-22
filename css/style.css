@@ -79,7 +79,7 @@ h1 {
     cursor: pointer;
 	box-shadow: 0px 20px 20px rgb(204, 255, 255);
     /*background: linear-gradient(90deg, rgba(59,203,255,1) 0%, rgba(14,230,0,1) 33%, rgba(59,203,255,1) 66%,  rgba(14,230,0,1) 100%);*/
-    background: linear-gradient(90deg, rgba(255, 123, 172) 0%, rgba(59,203,255,1) 33%, rgba(255, 123, 172) 66%,  rgba(255, 123, 172) 100%);
+    background: linear-gradient(90deg, rgba(255, 123, 172) 0%, rgba(59,203,255,1) 33%, rgba(255, 123, 172) 66%,  rgb(233, 102, 150) 100%);
     background-size: 400% 400%;
     animation: gradient 3s ease infinite;
 }
